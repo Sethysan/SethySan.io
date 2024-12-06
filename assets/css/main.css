@@ -463,6 +463,15 @@ h1::before, h2::before, h3::before, h4::before, h5::before {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
+  .social-links {
+    flex-direction: column;
+  }
+  
+  .social-links li {
+    justify-content: left;
+  }
+
 }
 
 /* Tech elevator logo */
@@ -533,6 +542,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before {
     padding: 0;
     margin: 0;
     display: flex; 
+    flex-wrap: wrap;
     gap: 5px; /* Adds spacing between items */
   }
   
